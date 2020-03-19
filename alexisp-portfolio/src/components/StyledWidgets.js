@@ -14,6 +14,18 @@ img {
 }
 `;
 
+//Main Context
+export const MainContext = styled.div`
+    p {
+        margin-top: 30px;
+        font-size: 16px;
+    }
+`;
+
+export const Title = styled.div`
+    font-size: 18px;
+`;
+
 //Footer
 export const Icons = styled.div`
     display: flex;
@@ -34,4 +46,70 @@ export const Icons = styled.div`
         margin-top: 20px;
         
     }
+`;
+
+export const CardOne = styled.div`
+    margin: 0 auto;
+    margin-bottom: 80px;
+    width: 80%;
+    p {
+        font-size: 18px;
+    }
+`;
+
+export const CardTwo = styled.div`
+    margin: 0 auto;
+    margin-bottom: 80px;
+    width: 80%;    
+    p {
+        font-size: 18px;
+    }
+`;
+
+export const CardThree = styled.div`
+    margin: 0 auto;
+    margin-bottom: 80px;
+    width: 80%;
+    p {
+        font-size: 18px;
+    }
+`;
+
+export const CardFour = styled.div`
+    margin: 0 auto;
+    margin-bottom: 80px;
+    width: 80%;
+    p {
+        font-size: 18px;
+    }
+`;
+
+export const CardFive = styled.div`
+    margin: 0 auto;
+    margin-bottom: 80px;
+    width: 80%;
+    p {
+        font-size: 18px;
+    }
+`;
+
+export const CardSix = styled.div`
+    margin: 0 auto;
+    margin-bottom: 80px;
+    width: 80%;
+    p {
+        font-size: 18px;
+    }
+`;
+
+//Header One
+export const HeaderOne = styled.header`
+    font-size: 35px;
+    font-family: Lato regular;
+`;
+
+//Header Two
+export const HeaderTwo = styled.header`
+    font-size: 35px;
+    font-family: Lato regular;
 `;
