@@ -19,7 +19,7 @@ const WelcomePage = () => {
                         <Title>Full Stack Web Developer</Title>
                         
                         <IMG>
-                            <img className="img-container" src={require('/Users/alexispanyathong/Documents/Lambda School/AlexisP-Portfolio/alexisp-portfolio/src/imgs/IMG_9272-WM-resize.jpg')} alt="img of Alexis." />
+                            <img className="img-container" src={require('../imgs/IMG_9272-WM-resize.jpg')} alt="img of Alexis." />
                         </IMG>
                         <p>
                         Highly determined, motivated Full Stack Web Developer with a passion for web application development. As I built many web applications I have gained a massive amount of experience with working on multiple languages. I am seeking a new opportunity that will allow me to further expand these skills. 
