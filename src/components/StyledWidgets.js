@@ -113,3 +113,9 @@ export const HeaderTwo = styled.header`
     font-size: 35px;
     font-family: Lato regular;
 `;
+
+// Button One
+export const ButtonOne = styled.button`
+    margin-right: 10px;
+    border: none;
+`;
