@@ -5,7 +5,7 @@ import { SocialIcon } from 'react-social-icons';
 
 
 //Styled Components
-import { IMG, Icons, CardOne, CardTwo, CardThree, CardFour, CardFive, CardSix, HeaderOne, HeaderTwo, MainContext, Title, ButtonOne } from './StyledWidgets';
+import { IMG, Icons, CardOne, CardTwo, CardThree, CardFour, CardFive, CardSix, HeaderOne, HeaderTwo, MainContext, Title, ButtonOne, ImgSix, ImgThree, ImgOne, ImgTwo } from './StyledWidgets';
 
 const WelcomePage = () => {
     
@@ -32,7 +32,12 @@ const WelcomePage = () => {
 
             <CardOne>
                 <Card className="text-center">
-                    <Card.Header>Featured</Card.Header>
+                    <Card.Header>
+                        <ImgOne>
+                            <img className="img-container" src={require('../imgs/header-img copy.png')} alt="snippet of user-interface."/>
+                        </ImgOne>
+                    </Card.Header>
+
                     <Card.Body>
                         <HeaderTwo>User-Interface</HeaderTwo>
                         <p>
@@ -52,7 +57,11 @@ const WelcomePage = () => {
 
             <CardTwo>
                 <Card className="text-center">
-                    <Card.Header>Featured</Card.Header>
+                    <Card.Header>
+                        <ImgTwo>
+                            <img className="img-container" src={require('../imgs/Screen Shot 2020-03-28 at 8.50.31 PM.png')} alt="snippet of WeddingGram."/>
+                        </ImgTwo>
+                    </Card.Header>
                         <Card.Body>
                             <HeaderTwo>WeddingGram</HeaderTwo>
                             <p>
@@ -71,7 +80,11 @@ const WelcomePage = () => {
 
             <CardThree>
                 <Card className="text-center">
-                    <Card.Header>Featured</Card.Header>
+                    <Card.Header>
+                        <ImgThree>
+                            <img className="img-container" src={require('../imgs/Screen Shot 2020-03-28 at 9.07.47 PM.png')} alt="snippet of GitHub-UserCard."/>
+                        </ImgThree>
+                    </Card.Header>
                         <Card.Body>
                             <HeaderTwo>GitHub-UserCard</HeaderTwo>
                             <p>
@@ -142,7 +155,11 @@ const WelcomePage = () => {
 
             <CardSix>
                 <Card className="text-center">
-                    <Card.Header>Featured</Card.Header>
+                    <Card.Header>
+                        <ImgSix>
+                            <img className="img-container" src={require('../imgs/Screen Shot 2020-03-28 at 9.13.44 PM.png')} alt="snippet of Dungeon of the Haunted Forest."/>
+                        </ImgSix>
+                    </Card.Header>
                         <Card.Body>
                             <HeaderTwo>Dungeon of the Haunted Forest</HeaderTwo>
                             <p>
