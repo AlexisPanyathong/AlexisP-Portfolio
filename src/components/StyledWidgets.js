@@ -174,3 +174,48 @@ export const ImgSix = styled.div`
         width: 30%;
     }
 `;
+
+// About Page
+export const SkillsCard = styled.div`
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 80px;
+    width: 50%;
+    box-shadow: 8px 8px 10px #BFBFBF;
+
+    p {
+        font-size: 18px;
+    }
+
+    ul {
+        width: 15%;
+        margin: 0 auto;
+    }
+`;
+
+export const AboutButton = styled.button`
+    margin-top: 15px;
+    border: none;
+`;
+
+// About Footer
+export const AboutIcons = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 530px;
+    
+    @media (max-width: 500px) {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    @media (max-width: 800px) {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 20px;
+        
+    }
+`;

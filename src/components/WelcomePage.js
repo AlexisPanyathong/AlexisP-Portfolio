@@ -5,7 +5,7 @@ import { SocialIcon } from 'react-social-icons';
 
 
 //Styled Components
-import { IMG, Icons, CardOne, CardTwo, CardThree, CardFour, CardFive, CardSix, HeaderOne, HeaderTwo, MainContext, Title, ButtonOne, ImgSix, ImgThree, ImgOne, ImgTwo } from './StyledWidgets';
+import { IMG, Icons, CardOne, CardTwo, CardThree,CardSix, HeaderOne, HeaderTwo, MainContext, Title, ButtonOne, ImgSix, ImgThree, ImgOne, ImgTwo, SkillsCard, AboutButton } from './StyledWidgets';
 
 const WelcomePage = () => {
     
@@ -29,6 +29,27 @@ const WelcomePage = () => {
                 </MainContext>
                 </Card>
             
+                <div>
+                    <SkillsCard>
+                        <Card className="text-center">
+                        
+                            <Card.Body>
+                                <HeaderTwo>Skills</HeaderTwo>
+                                <ul>
+                                    <li>JavaScript</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>React</li>
+                                </ul>
+                            
+                                <AboutButton>
+                                    <Button variant="primary" href=" https://docs.google.com/document/d/1WUcTeJ2wYuxPzV8t8xMX08lvOhN6y89h2BLsLCebgzg/edit?usp=sharing" target="_blank">View Resume</Button>
+                                </AboutButton>
+                            </Card.Body>
+                            {/* <Card.Footer className="text-muted">2 days ago</Card.Footer> */}
+                        </Card>
+                    </SkillsCard>
+                </div>
 
             <CardOne>
                 <Card className="text-center">
@@ -112,47 +133,6 @@ const WelcomePage = () => {
                 </Card>
             </CardThree>
             
-            <CardFour>
-                <Card className="text-center">
-                    <Card.Header>Featured</Card.Header>
-                        <Card.Body>
-                            <HeaderTwo>Form Management</HeaderTwo>
-                            <p>
-                                This project demonstrates proficiency by creating an application that has a registration page and let's you register a new user. Once a user is registered, you can fetch data and render it to the DOM.<br/>
-                                This project consists of:
-                                <li>A registration form built with formik - include inputs for a username and a password.</li>
-                                <li>Form validation using Yup</li>
-                                <li>At least one class component (I would challenge you to make the form a class!)</li>
-                                <li>Tests for at least one element, one event, and one unit test for a function.</li>
-                                <li>A POST request made from the registration form to http://localhost:5000/api/register to add a user. </li>
-                                <li>A GET request made to http://localhost:5000/api/restricted/data to retrieve the data. </li>
-                                <li>Map over the array of objects you recieve and render some or all of it's information to the DOM.</li>		
-                            </p>
-                            <Button variant="primary" href="https://github.com/AlexisPanyathong/github-usercard" target="_blank">View Here</Button>
-                        </Card.Body>
-                        {/* <Card.Footer className="text-muted">2 days ago</Card.Footer> */}
-                </Card>
-            </CardFour>
-
-            <CardFive>
-                <Card className="text-center">
-                    <Card.Header>Featured</Card.Header>
-                        <Card.Body>
-                            <HeaderTwo>Java SnackBar</HeaderTwo>
-                            <p>
-                            The main object of this project is to set up vending machines where a person buys snacks from those machines.<br/>
-                                This project consists of:
-                                <li>Use the Java Development Kit (JDK)</li>
-                                <li>Use and manipulate Java base data types</li>
-                                <li>Construct Java classes including instantiating and using Java Objects</li>
-                                <li>Use and manipulate Java base data types	</li>
-                            </p>
-                            <Button variant="primary" href="https://github.com/AlexisPanyathong/java-SnackBar/tree/alexis-panyathong-2" target="_blank">View Here</Button>
-                        </Card.Body>
-                        {/* <Card.Footer className="text-muted">2 days ago</Card.Footer> */}
-                </Card>
-            </CardFive>
-
             <CardSix>
                 <Card className="text-center">
                     <Card.Header>
@@ -182,7 +162,8 @@ const WelcomePage = () => {
                 <Icons>
                     <SocialIcon url="https://twitter.com/Alex_Panyathong" style={{ height: 40, width: 70 }} target="_blank"/>    
                     <SocialIcon url="mailto:alexispanyathong@gmail.com?subject=here" style={{ height: 40, width: 70 }} fgColor="#FF0505" bgColor="#4E4E4E" target="_blank"/>  
-                    <SocialIcon url="https://www.linkedin.com/in/alexis-panyathong/" style={{ height: 40, width: 70 }} fgColor="#FFFFFF" bgColor="#0e76a8" target="_blank"/>      
+                    <SocialIcon url="https://www.linkedin.com/in/alexis-panyathong/" style={{ height: 40, width: 70 }} fgColor="#FFFFFF" bgColor="#0e76a8" target="_blank"/>  
+                    <SocialIcon url="https://www.github.com/AlexisPanyathong" style={{ height: 40, width: 70 }} fgColor="#FFFFFF" bgColor="#000000" target="_blank"/>    
                 </Icons>
                 
             </footer>
