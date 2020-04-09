@@ -188,7 +188,7 @@ export const SkillsCard = styled.div`
     }
 
     ul {
-        width: 15%;
+        width: 20%;
         margin: 0 auto;
     }
 `;
