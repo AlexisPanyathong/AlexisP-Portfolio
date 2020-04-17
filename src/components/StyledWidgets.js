@@ -52,6 +52,12 @@ export const Title = styled.div`
     font-size: 18px;
 `;
 
+export const List = styled.div`
+    li {
+      text-align: left;  
+    }
+`;
+
 //Footer
 export const Icons = styled.div`
     display: flex;
@@ -191,6 +197,7 @@ export const SkillsCard = styled.div`
         width: 20%;
         margin: 0 auto;
     }
+
 `;
 
 export const AboutButton = styled.button`

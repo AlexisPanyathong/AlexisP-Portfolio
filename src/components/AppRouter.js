@@ -13,7 +13,7 @@ const AppRouter = () => {
         <Router>
             <Nav>
                 <div className='app-router'>
-                    <Link to='/'>Home</Link>
+                    {/* <Link to='/'>Home</Link> */}
                     {/* <Link to='/aboutpage'>About</Link> */}
                 </div>
             </Nav>

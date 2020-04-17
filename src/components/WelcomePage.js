@@ -5,7 +5,7 @@ import { SocialIcon } from 'react-social-icons';
 
 
 //Styled Components
-import { IMG, Icons, CardOne, CardTwo, CardThree,CardSix, HeaderOne, HeaderTwo, MainContext, Title, ButtonOne, ImgSix, ImgThree, ImgOne, ImgTwo, SkillsCard, AboutButton } from './StyledWidgets';
+import { IMG, Icons, CardOne, CardTwo, CardThree,CardSix, HeaderOne, HeaderTwo, MainContext, Title, ButtonOne, ImgSix, ImgThree, ImgOne, ImgTwo, SkillsCard, AboutButton, List } from './StyledWidgets';
 
 const WelcomePage = () => {
     
@@ -35,13 +35,14 @@ const WelcomePage = () => {
                         
                             <Card.Body>
                                 <HeaderTwo>Skills</HeaderTwo>
-                                <ul>
-                                    <li>JavaScript</li>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>React</li>
-                                </ul>
-                            
+                                <List>
+                                    <ul>
+                                        <li>JavaScript</li>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>React</li>
+                                    </ul>
+                                </List>
                                 <AboutButton>
                                     <Button variant="primary" href=" https://docs.google.com/document/d/1WUcTeJ2wYuxPzV8t8xMX08lvOhN6y89h2BLsLCebgzg/edit?usp=sharing" target="_blank">View Resume</Button>
                                 </AboutButton>
@@ -62,7 +63,7 @@ const WelcomePage = () => {
                     <Card.Body>
                         <HeaderTwo>User-Interface</HeaderTwo>
                         <p>
-                        This project was a study on HTML and CSS. I resized some images and texts to align with the website.
+                        This project was a study on HTML and CSS. I resized some images and texts to align with the website. This project was very fun because I had the opportunity to recreate a demo that was set up to see how well I could match the designs.
                         </p>
 
                         <ButtonOne>
@@ -86,7 +87,7 @@ const WelcomePage = () => {
                         <Card.Body>
                             <HeaderTwo>WeddingGram</HeaderTwo>
                             <p>
-                                This was my first build week at Lambda and I was a part of the UI team. Our app is called WeddingGram and this is an app to help newly engaged couples for their wedding preparations such as, finding a wedding planner, creating a timeline for their wedding, and posting their experience and questions that they may have for wedding planners. I was in charge of the How It Works, Wedding Day Timeline Table, and the Featured Wedding Planners carousel sections. I was also in charge of the About Us context and the Meet the Team tabs.
+                                This was my first build week at Lambda and I was a part of the UI team. Our app is called WeddingGram and this is an app to help newly engaged couples for their wedding preparations such as, finding a wedding planner, creating a timeline for their wedding, and posting their experience and questions that they may have for wedding planners. I was in charge of the How It Works, Wedding Day Timeline Table, and the Featured Wedding Planners carousel sections. I was also in charge of the About Us context and the Meet the Team tabs. This project consists of: JavaScript, LESS, CSS, HTML, Responsive Design, and Pre-Processors.
                             </p>
 
                             <ButtonOne>
@@ -109,17 +110,9 @@ const WelcomePage = () => {
                         <Card.Body>
                             <HeaderTwo>GitHub-UserCard</HeaderTwo>
                             <p>
-                            In this project we learned how to access the GitHub API and built a social card based on the data we got back. One of the main goals was to create a component based on the data we got back when we sent a GET request to the GitHub API.<br/> 
-                            This project consists of:
-                            <li>Creating DOM components with Javascript Functions.</li>
-                            <li>Utilizing 3rd party libraries (axios)</li>
-                            <li>Promises, .then & .catch</li>
-                            <li>HTTP GET requests</li>
-                            <li>Array Methods</li>
-                            <li>DOM</li>
-                            <li>Element selection</li>
-                            <li>Basic DOM manipulation</li>
-                            <li>Events and event listeners</li>
+                            In this project we learned how to access the GitHub API and built a social card based on the data we got back. One of the main goals was to create a component based on the data we got back when we sent a GET request to the GitHub API.
+                            This project consists of: 
+                            DOM components with Javascript Functions, Axios, Promises,HTTP GET requests, Array Methods, Element selection, Basic DOM manipulation, and Events and event listeners.
                                 
                             </p>
 
