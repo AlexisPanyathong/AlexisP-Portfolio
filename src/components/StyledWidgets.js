@@ -40,7 +40,11 @@ img {
 }
 `;
 
-//Main Context
+//Main Context Welcome Page
+export const MainPage = styled.div`
+    
+`;
+
 export const MainContext = styled.div`
     p {
         margin-top: 30px;

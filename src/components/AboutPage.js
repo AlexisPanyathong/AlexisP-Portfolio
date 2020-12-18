@@ -37,9 +37,9 @@ const AboutPage = () => {
             <footer className="social-icons">
                 <AboutIcons>
                     <SocialIcon url="https://twitter.com/Alex_Panyathong" style={{ height: 40, width: 70 }} target="_blank"/>    
-                    <SocialIcon url="mailto:alexispanyathong@gmail.com?subject=here" style={{ height: 40, width: 70 }} fgColor="#FF0505" bgColor="#4E4E4E" target="_blank"/>  
-                    <SocialIcon url="https://www.linkedin.com/in/alexis-panyathong/" style={{ height: 40, width: 70 }} fgColor="#FFFFFF" bgColor="#0e76a8" target="_blank"/> 
-                    <SocialIcon url="https://www.github.com/AlexisPanyathong" style={{ height: 40, width: 70 }} fgColor="#FFFFFF" bgColor="#000000" target="_blank"/>      
+                    <SocialIcon url="mailto:alexisnathavong@gmail.com?subject=here" style={{ height: 40, width: 70 }} fgColor="#FF0505" bgColor="#4E4E4E" target="_blank"/>  
+                    <SocialIcon url="https://www.linkedin.com/in/alexis-nathavong/" style={{ height: 40, width: 70 }} fgColor="#FFFFFF" bgColor="#0e76a8" target="_blank"/> 
+                    <SocialIcon url="https://www.github.com/AlexisNathavong" style={{ height: 40, width: 70 }} fgColor="#FFFFFF" bgColor="#000000" target="_blank"/>      
                 </AboutIcons>
                     
             </footer>
