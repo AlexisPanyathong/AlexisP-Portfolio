@@ -5,7 +5,7 @@ import { SocialIcon } from 'react-social-icons';
 
 
 //Styled Components
-import { IMG, Icons, CardOne, CardTwo, CardThree,CardSix, HeaderOne, HeaderTwo, MainContext, Title, ButtonOne, ImgSix, ImgThree, ImgOne, ImgTwo, SkillsCard, AboutButton, List, MainPage } from './StyledWidgets';
+import { IMG, Icons, CardOne, CardTwo, CardThree,CardSix, HeaderOne, HeaderTwo, MainContext, Title, ButtonOne, ImgSix, ImgThree, ImgOne, ImgTwo, SkillsCard, AboutButton, List, MainPage, CardSeven } from './StyledWidgets';
 
 const WelcomePage = () => {
     
@@ -42,6 +42,8 @@ const WelcomePage = () => {
                                             <li>HTML</li>
                                             <li>CSS</li>
                                             <li>React</li>
+                                            <li>Python</li>
+                                            <li>Java</li>
                                         </ul>
                                     </List>
                                     <AboutButton>
@@ -151,6 +153,31 @@ const WelcomePage = () => {
                             {/* <Card.Footer className="text-muted">2 days ago</Card.Footer> */}
                     </Card>
                 </CardSix>
+
+                <CardSeven>
+                    <Card className="text-center">
+                        <Card.Header>
+                            <ImgSix>
+                                <img className="img-container" src={require('/Users/alexispanyathong/Documents/Lambda School/AlexisP-Portfolio/src/imgs/Screen Shot 2021-01-23 at 5.34.49 PM.png')} alt="snippet of Alexis Vilai Photography."/>
+                            </ImgSix>
+                        </Card.Header>
+                            <Card.Body>
+                                <HeaderTwo>Alexis Vilai Photography</HeaderTwo>
+                                <p>
+                                    As a photographer and a developer, I have decided to use my technical skills to build my own photography page from scratch. I mainly used React to build this website along with React Bootstrap. The main purpose of this website is to share a home page that display some of my photography work. I also have an About page that introduces myself and how I started my photography business. There is also a Portfolio page where it takes a customer to another tab that goes to my portfolio website, if they wanted to see more of my work. I also built a Booking page where my clients can easily book their session.
+                                </p>
+
+                                <ButtonOne>
+                                    <Button variant="primary" href="https://github.com/AlexisNathavong/Alexis-Vilai" target="_blank">View Code</Button>
+                                </ButtonOne>
+
+                                <Button variant="primary" href="https://alexisvilaiphotography.netlify.app/" target="_blank">View Here</Button>
+
+                                
+                            </Card.Body>
+                            {/* <Card.Footer className="text-muted">2 days ago</Card.Footer> */}
+                    </Card>
+                </CardSeven>
                 
                 <footer className="social-icons">
                     <Icons>

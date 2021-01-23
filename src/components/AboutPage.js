@@ -21,6 +21,8 @@ const AboutPage = () => {
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>React</li>
+                        <li>Python</li>
+                        <li>Java</li>
                     </ul>
                    
 

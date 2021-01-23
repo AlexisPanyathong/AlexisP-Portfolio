@@ -138,6 +138,15 @@ export const CardSix = styled.div`
     }
 `;
 
+export const CardSeven = styled.div`
+    margin: 0 auto;
+    margin-bottom: 80px;
+    width: 80%;
+    p {
+        font-size: 18px;
+    }
+`;
+
 //Header One
 export const HeaderOne = styled.header`
     font-size: 35px;
